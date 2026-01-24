@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Rocket{
+   public static void main(String[] args){
+   Scanner input =new Scanner(System.in);
+   System.out.println("enter the countdown number");
+   int counter =input.nextInt();
+   while(counter>=1){
+   System.out.println(+counter);
+   counter--;
+   }
+   System.out.println("Rocket launched");
+   }
+   }
+   
